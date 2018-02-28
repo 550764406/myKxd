@@ -1,0 +1,21 @@
+/*** toast ***/
+.toastcon{
+    display: inline-block;
+    height: 36px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 2px;
+    line-height: 36px;
+    text-align: center;
+    position: fixed;
+    left: 45%;
+    top: -50px;
+    z-index: 9999;
+}
+.success_toast{
+    background: #390;
+}
+.fail_toast{
+    background: #f33;
+}
